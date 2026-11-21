@@ -10,11 +10,13 @@ A verificação combina a leitura do DOCX e do PPTX, a inspeção dos estilos, d
 | Fonte do corpo editável | Times New Roman 12 pt | Conforme | Estilo de corpo e títulos inspecionados. As exceções de capa e folha de rosto do modelo foram mantidas. Legendas, tabelas e código usam estilos próprios. |
 | Espaçamento, alinhamento e recuo | 1,5 linha, justificado e primeira linha de 1,25 cm | Conforme | Propriedades verificadas no estilo Corpo PCCT. Capa, listas, legendas, tabelas e referências seguem formatação própria. |
 | Capa e folha de rosto | Identidade, local, ano, curso, equipe, natureza do PCCT e orientação | Conforme | Imagem oficial da capa confere byte a byte com o modelo. Manacapuru consta no local. Nome do orientador confirmado nos créditos do jogo. Titulação e coorientação não foram presumidas. |
+| Autoria | Nomes completos em ordem alfabética pelo primeiro nome | Conforme | Angie Lisset Quiñones Montenegro precede Juan Gabriel Ramirez Gonçalves nas capas, na folha de rosto e nas relações formais de autoria. |
 | Pré-textuais | Resumo, palavras-chave, listas pertinentes e sumário | Conforme | Capa, folha de rosto, resumo, listas e sumário antecedem o texto. |
 | Ficha catalográfica e verso da folha de rosto | Inserção quando aplicável à turma | Pendente | Confirmar exigência com a coordenação ou biblioteca. Nenhum dado catalográfico foi fabricado. |
 | Estrutura | Sete capítulos numerados | Conforme | Introdução, Referencial Teórico, Metodologia, Resultados, Discussão dos Resultados, Considerações Finais e Referências. Os títulos usam estilos de cabeçalho do Word. |
-| Extensão textual | Pelo menos 25 páginas de elementos textuais | Conforme | 39 páginas físicas, das quais **32 textuais**. A contagem usa as páginas físicas 6–37, da Introdução ao fim das Considerações Finais. Exclui cinco páginas pré-textuais e duas de Referências. |
+| Extensão textual | Pelo menos 25 páginas de elementos textuais | Conforme | O relatório antes do apêndice tem 39 páginas físicas, das quais **32 textuais**. A contagem usa as páginas físicas 6–37, da Introdução ao fim das Considerações Finais. Exclui cinco páginas pré-textuais e duas de Referências. |
 | Sumário e paginação | Campos atualizáveis com destinos e números reais, numeração visível a partir do texto | Conforme | Sumário com campo TOC, 41 entradas vinculadas e referências de página conferidas contra o PDF. A folha de rosto inicia a contagem e a exibição começa na Introdução, com número 5. |
+| Apêndice A | GDD integral após as Referências | Conforme | O PDF completo tem 64 páginas. O apêndice está vinculado no sumário na página numerada 39 e inclui os 15 capítulos, as 15 tabelas e as quatro figuras do GDD. |
 | Figuras e código | Figuras numeradas, legenda acima e fonte abaixo, trechos reais | Conforme | Onze figuras com título, imagem e fonte na mesma página. Oito recortes C# mantidos com identificação de arquivo e linhas. |
 | Tabelas | Identificação e continuidade das tabelas | Conforme | Onze tabelas numeradas no corpo e um quadro de siglas. Cabeçalhos repetidos nas continuações e linhas impedidas de dividir entre páginas. |
 | Citações e referências | Sistema consistente e validação normativa aplicável | Pendente | Usado autor-data, com referências vinculadas às fontes técnicas. As versões vigentes e os detalhes do Manual e das NBR de trabalhos acadêmicos, relatórios, citações, referências, resumo, numeração e sumário não puderam ser confrontados com as fontes oficiais. |
@@ -27,7 +29,7 @@ A verificação combina a leitura do DOCX e do PPTX, a inspeção dos estilos, d
 | Duração em apresentação oral | Fala, transições e demonstração em 15 minutos | Pendente | Roteiro e notas sincronizados. As falas dos slides sem demonstração foram dimensionadas para cerca de 99 a 139 palavras por minuto, incluindo transições faladas. A duração real requer ensaio no equipamento da banca. |
 | Roteiro | Capa simplificada, Times New Roman 12, margens e 17 falas sincronizadas | Conforme | Logo oficial preservado, estilos reais de texto e títulos, divisão de apresentadores, tempos, ações visuais, transições e perguntas. PDF com 23 páginas. |
 | Registro visual de execução | Capturas reais e vídeo da demonstração | Pendente | Foram usadas imagens de recursos e renderizações dos FBX reais, identificadas como externas. Os mapas HDRP/Lit do Zombie foram acrescentados. As capturas de Graphics/Quality, luzes, Volumes, material no Inspector e a comparação controlada continuam no guia. |
-| Revisão visual | Todas as páginas e todos os slides renderizados e inspecionados | Conforme | Revisadas 39 páginas do relatório, 17 slides e 23 páginas do roteiro. Também foram conferidos limites de texto, links do sumário e artefatos editáveis. |
+| Revisão visual | Todas as páginas e todos os slides renderizados e inspecionados | Conforme | Revisadas 64 páginas do relatório completo, 17 slides e 23 páginas do roteiro. Também foram conferidos limites de texto, links do sumário e artefatos editáveis. |
 
 ## Validação complementar da HDRP
 
@@ -39,7 +41,7 @@ A verificação combina a leitura do DOCX e do PPTX, a inspeção dos estilos, d
 
 ## Fontes institucionais e limites
 
-Os dois modelos editáveis anexados foram a referência primária. O acesso nesta sessão ao Manual de TCC do IFAM, à página de identidade do Campus Manacapuru e ao catálogo ABNT recebeu HTTP 403. A exigência de 25 páginas foi aplicada conforme a seção 5.3.2 informada na solicitação. A aprovação formal da coordenação e a verificação dos requisitos normativos que dependem de consulta externa ficam pendentes.
+Os dois modelos editáveis anexados foram a referência primária. A tentativa de acesso ao Manual de TCC do IFAM, à página de identidade do Campus Manacapuru e ao catálogo ABNT recebeu HTTP 403. A exigência de 25 páginas foi aplicada como critério de extensão, atribuído à seção 5.3.2 do Manual. A aprovação formal da coordenação e a verificação dos requisitos normativos que dependem de consulta externa ficam pendentes.
 
 - [Manual de TCC do IFAM](https://www2.ifam.edu.br/pro-reitorias/ensino/proen/biblioteca/noticias-1/manual-do-trabalho-de-conclusao-de-curso-do-ifam/)
 - [Identidade visual do Campus Manacapuru](https://www2.ifam.edu.br/campus/manacapuru/publicacoes/identidade-visual)

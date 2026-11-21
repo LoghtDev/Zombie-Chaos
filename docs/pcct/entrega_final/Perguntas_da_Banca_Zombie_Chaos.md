@@ -32,17 +32,17 @@ A lógica C# decide por distância e intervalo. O Animator possui os estados de 
 ### 10. A onda espera todos os inimigos morrerem?
 A onda avança pelo tempo. Seu início restaura a vida e a variedade de prefabs cresce por faixas. Inimigos restantes podem continuar no mapa.
 
-### 11. Como a equipe utilizou Scrum?
-A equipe relata Scrum adaptado ao longo de sete meses. Agrupamos o processo em incrementos de integração. A linha do tempo é uma reconstrução por frentes, com atividades sobrepostas.
+### 11. Como vocês utilizaram Scrum?
+Usamos Scrum adaptado ao longo de sete meses. Organizamos o desenvolvimento em incrementos de integração, com frentes que avançaram em paralelo.
 
 ### 12. Qual foi a função do Trello?
-A equipe o usou para organizar atividades. O diagrama ilustra como uma tarefa vai da priorização à verificação e pode voltar para ajustes, sem representar uma captura do quadro histórico.
+Usamos o Trello para organizar as atividades, acompanhar seu andamento e visualizar quando uma tarefa precisava voltar para ajustes. O diagrama sintetiza esse fluxo.
 
 ### 13. Quais requisitos foram validados?
-A inspeção confirma a integração estática dos fluxos centrais. Há relato de abertura de uma build Windows. Os testes de aceitação em execução de uma build identificada seguem pendentes.
+A inspeção confirmou as ligações dos fluxos centrais. Também há registro da inicialização de uma build anterior no Windows. Os testes de aceitação de uma build identificada seguem pendentes.
 
 ### 14. Como vocês avaliam desempenho?
-Medimos, no plano de validação, abertura, tempo de quadro, memória e agentes ativos, com hardware e perfil HDRP registrados. Nenhuma taxa de quadros foi aferida nesta auditoria.
+O plano prevê medir abertura, tempo de quadro, memória e agentes ativos, com hardware e perfil HDRP identificados. Ainda não houve medição de taxa de quadros.
 
 ### 15. Qual melhoria faria mais sentido agora?
 Validar uma sessão até Game Over e reproduzir recarga parcial, HUD na troca e eventos de ataque por variante. Depois, priorizar ajustes a partir do impacto observado.
@@ -74,7 +74,7 @@ A luz direcional, as fontes locais e as sombras organizam áreas de luz e contra
 Conjuntos de parâmetros de renderização usados pela câmera. O ambiente tem Volumes globais com peso 1. Um Volume de dano em Game começa em 0 e o script altera seu peso durante o feedback.
 
 ### 24. Quais efeitos foram utilizados?
-Os perfis de ambiente registram exposição automática, bloom, vinheta e SSAO, entre outros ajustes. O perfil padrão seleciona ACES. O Volume de dano tem ajustes de cor, aberração cromática e motion blur. A auditoria verificou ligações e configurações, e os efeitos em runtime ainda precisam de captura.
+Os perfis de ambiente registram exposição automática, bloom, vinheta e SSAO, entre outros ajustes. O perfil padrão seleciona ACES. O Volume de dano tem ajustes de cor, aberração cromática e motion blur. Verificamos as ligações e as configurações. Os efeitos em execução ainda precisam de captura.
 
 ### 25. A HDRP melhora automaticamente a qualidade?
 A pipeline oferece controles. O resultado depende de iluminação, arte, materiais, câmera, composição e recursos disponíveis no perfil. É preciso observar se as decisões melhoram a leitura da cena.
@@ -83,7 +83,7 @@ A pipeline oferece controles. O resultado depende de iluminação, arte, materia
 Sombras, volumetria e pós-processamento podem aumentar trabalho de GPU e uso de memória. O efeito no jogo depende de hardware, resolução e configuração. Falta medir em condições controladas.
 
 ### 27. O projeto poderia usar URP?
-Seria tecnicamente possível realizar uma conversão, com revisão de shaders, materiais, Volumes, iluminação e compatibilidade. O jogo atual é HDRP, e a auditoria não identificou teste ou migração histórica comprovada.
+Seria tecnicamente possível realizar uma conversão, com revisão de shaders, materiais, Volumes, iluminação e compatibilidade. A versão atual usa HDRP. A comparação apresentada é documental, sem teste comparativo ou migração demonstrada.
 
 ### 28. Quais são as limitações mais relevantes?
 Requisitos de hardware e API, custo gráfico e recursos que variam conforme o perfil. No projeto, Baixo desabilita suporte volumétrico, SSR e ray tracing estão desabilitados nos três níveis e SSGI é permitido só em Alto, com uso em cena ainda não confirmado.
